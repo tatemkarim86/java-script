@@ -290,6 +290,28 @@ footer div {
 
 }
 
+.fleches{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.fleches .gauche,.fleches .droite, .fleches .center{
+	display: flex;
+}
+
+.fleches .gauche, .fleches .droite{
+	justify-content: center;
+	align-items: center;
+}
+
+#img-carossel{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
 @media all and (max-width: 1250px) {
 	#contact > article {
 		flex: 2;
